@@ -1,0 +1,55 @@
+Ligar um aparelho,Desligar um aparelho,Criar uma regra
+Liga a TV,Desliga a TV,Desliga a TV depois do jornal das 21:00 horas
+Resfriar o quarto,Apaga o abajur,Apaga o abajur depois de 30 minutos dele aceso
+Acende o abajur,Desliga as luzes,A luz da cozinha fica ligada de 8:00 da manhã até 22:00 da noite
+Liga as luzes,Nenhuma luz acesa no quarto,Todo dia as 7:00 da manhã tocar despertador
+Iluminar o quarto,Ar condicionado desligado,Manter o ar condicionado na temperatura de 24 graus de 22:00 as 7:00 horas
+Ar condicionado ligado,Apaga a tela da tv,Apaga a tela da tv depois das 22:00 horas caso esteja ligada
+Acende a tela da tv,Não quero mais assistir TV,O boiler fica ligado de 7:00 as 16:00 horas
+Esquentar comida no microondas,Por hoje chega de música,Ligue a luz da fachada das 18 às 7 horas todos os dias
+Lavar roupa na máquina,Desligar computador,Desligue o ar condicionado do [cômodo] às 8 horas de segunda à sexta
+Ligar computador,A comida já está suficientemente quente,"Ligue/ative o sistema de irrigação às 5 horas dia sim, dia não"
+Toca uma musica do radio,Desligue o ar condicionado,Ligue o ar condicionado do [cômodo] meio dia e meia
+"Ligue a televisão, por favor",Desligue o ar,Ligue o ar Condicionado do [cômodo] das 12 horas até seis da tarde/noite
+"Liga a tv, por favor",Desligue o ar condicionado do [cômodo],Mantenha as luzes do [cômodo] acesas até às 6 horas
+"Ligue a luz do [cômodo], por favor",Desligue a luz do [cômodo],"Programe o alarme para despertar segundas, quartas e sextas às dez da manhã/noite"
+Acenda a luz do [cômodo],Desligue a iluminação da fachada,Ligue o rádio na estação x às sete da manhã/noite (ou 19 horas)
+Ligue o ar condicionado,Desligue o sistema de segurança,Acenda as luzes da fachada das seis da tarde/noite até às seis da manhã.
+"Ligue o ar, por favor",Desligue o ventilador no [cômodo],Acenda a luz do [cômodo] às seis da tarde
+"Por favor,Ligue o computador",Desative o sistema de segurança,Ligue o ar por x minutos/horas
+Ligue o ar condicionado do [cômodo],Desative o alarme da porta,Ligue o ar por meia hora
+Ligue todas as luzes da casa,Apague a luz do [cômodo],Ligar a TV da sala na quarta feira as 21:30 e desligar as 23:00;
+Ligue o alarme de casa,Desligue a TV da sala;,Ligar o ar condicionado quando a temperatura ambiente estiver acima de 25°C;
+Ative o alarme de casa,Pode desligar o ventilador do quarto;,Desligar o ventilador as 09:00 AM;
+Ligue o rádio na estação x (???),Quero que desligue o som da piscina;,Quero que a TV do quarto ligue as 13:00 de sábado;
+Liga a luz do quarto;,Desligar boiler da casa,Me acorde na segunda feira as 6 da manhã;
+Pode ligar a TV por favor?,Pode desligar o ar condicionado por favor?,O PC deve ligar as 13:00 da quarta feira;
+Ligue o ventilador da sala;,Desligue o ventilador da cozinha;,Apagar as luzes da sala as 00:20;
+Ligar TV da cozinha;,Desligue as luzes do quarto;,Pode ligar as luzes na sexta a noite as 19:00?
+Ligar aparelho de som,Desligue apenas as primeiras luzes da sala;,Desligar o ar condicionado as 07:00;
+Pode ligar o PC 1;,Desligue todos as luzes da casa;,Desligar o video-game as 19:00 todos os dias da semana.
+Ligar todas as luzes de casa,Desligar o ar condicionado do escritório.,Ligue o ar condicionado as 3 da tarde hoje.
+Ligar o ar condicionado do quarto com suíte,Desligue a luz do quarto por favor.,"Ligar a luz das 15 às 18 horas, todo dia."
+Ligar a impressora conectada ao pc 1;,Desligar a TV.,Apagar as luzes do quarto as 22 horas.
+Quero que ligue a TV do quarto;,Desliga o ar condicionado.,"Ligar a cafeteira às seis e quarenta e cinco, segundas e quartas."
+Liga a televisão por favor.,Desligar música.,Desligue todos os eletrônicos da casa às 21 horas.
+Ligue o ar condicionado.,Para a música.,Desligar o ventilador da sala as 15 horas.
+Ar condicionado ligado.,Apaga a luz da cozinha.,"Faz café pra mim todo dia às sete, por favor."
+Liga a luz do quarto ai.,Chega de luz no corredor.,"Desligue todas as luzes e ar condicionados da casa às 9 horas, todo dia."
+Liga meu computador pra mim.,Está claro demais na sala.,"Sempre toque uma música às oito da manhã, de segunda à sexta."
+Acende a luz da cozinha por favor.,Meu quarto está claro demais.,Liga o ar condicionado pra mim daqui a meia hora ok?
+Acende o gás.,Tem muita luz na cozinha.,Faz café pra mim daqui a cinco minutos por favor.
+Ascender gás.,"Chega de vento, por favor.",Faça um café às 7h.
+Liga o som.,A sala está vazia.,"Quando for 22h, desligue a TV."
+Bota um som aí pra mim.,Não tem mais ninguém na sala.,Desligue o forno em 30 minutos.
+Bota uma música aí.,,Desligue o ar condicionado as 2h da manhã.
+Meu quarto está um pouco escuro.,,
+Preciso de luz aqui.,,
+Coloca a torradeira pra funcionar.,,
+Coloca o ventilador do quarto pra funcionar.,,
+Faz um café aí.,,
+Faça torradas.,,
+Coloque o jornal nacional.,,
+"Por favor, ligue o som ambiente.",,
+Esquente a água no fogão.,,
+Imprimir documentos,,

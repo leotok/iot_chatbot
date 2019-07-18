@@ -1,0 +1,129 @@
+Ligar um aparelho,Entities,Desligar um aparelho,Criar uma regra
+Liga a televisão por favor.,televisao<B-DEVICE>,Desligue a luz do quarto por favor.,Ligue o ar condicionado as 3 da tarde hoje.
+Ligue o ar condicionado.,ar<B-DEVICE>;condicionado<L-DEVICE>,Desligar a TV.,"Ligar a luz das 15 às 18 horas, todo dia."
+Ar condicionado ligado.,ar<B-DEVICE>;condicionado<L-DEVICE>,Desliga o ar condicionado.,Apagar as luzes do quarto as 22 horas.
+Liga a luz do quarto ai.,luz<B-DEVICE>;quarto<B-LOC>,Desligar música.,"Ligar a cafeteira às seis e quarenta e cinco, segundas e quartas."
+Liga meu computador pra mim.,luz<B-DEVICE>;cozinha<B-LOC>,Para a música.,Desligue todos os eletrônicos da casa às 21 horas.
+Acende a luz da cozinha por favor.,luz<B-DEVICE>;cozinha<B-LOC>,Apaga a luz da cozinha.,Desligar o ventilador da sala as 15 horas.
+Liga o som.,som<B-DEVICE>,Chega de luz no corredor.,"Faz café pra mim todo dia às sete, por favor."
+Bota um som aí pra mim.,som<B-DEVICE>,Está claro demais na sala.,"Desligue todas as luzes e ar condicionados da casa às 9 horas, todo dia."
+Bota uma música aí.,musica<B-DEVICE>,Meu quarto está claro demais.,"Sempre toque uma música às oito da manhã, de segunda à sexta."
+Meu quarto está um pouco escuro.,quarto<B-LOC>,Tem muita luz na cozinha.,Liga o ar condicionado pra mim daqui a meia hora ok?
+Preciso de luz aqui.,luz aqui<B-DEVICE>,"Chega de vento, por favor.",Faz café pra mim daqui a cinco minutos por favor.
+Coloca a torradeira pra funcionar.,torradeira<B-DEVICE>,A sala está vazia.,Ligar a TV da sala na quarta feira as 21:30 e desligar as 23:00;
+Coloca o ventilador do quarto pra funcionar.,ventilador<B-DEVICE>;quarto<B-LOC>,Não tem mais ninguém na sala.,Ligar o ar condicionado quando a temperatura ambiente estiver acima de 25°C;
+Faz um café aí.,cafe<B-DEVICE>,Desligue a TV da sala;,Desligar o ventilador as 09:00 AM;
+Liga a luz do quarto;,luz<B-DEVICE>;quarto<B-LOC>,Pode desligar o ventilador do quarto;,Quero que a TV do quarto ligue as 13:00 de sábado;
+Pode ligar a TV por favor?,tv<B-DEVICE>,Quero que desligue o som da piscina;,Me acorde na segunda feira as 6 da manhã;
+Ligue o ventilador da sala,ventilador<B-DEVICE>;sala<B-LOC>,Desligar boiler da casa,O PC deve ligar as 13:00 da quarta feira;
+Ligar TV da cozinha,tv<B-DEVICE>;cozinha<B-LOC>,Pode desligar o ar condicionado por favor?,Apagar as luzes da sala as 00:20;
+Ligar aparelho de som,aparelho<B-DEVICE>;de<I-DEVICE>;som<L-DEVICE>,Desligue o ventilador da cozinha;,Pode ligar as luzes na sexta a noite as 19:00?
+Pode ligar o PC 1,pc<B-DEVICE>;1<I-DEVICE>,Desligue as luzes do quarto;,Desligar o ar condicionado as 07:00;
+Ligar todas as luzes de casa,luzes<B-DEVICE>;casa<B-LOC>,Desligue apenas as primeiras luzes da sala;,Desligar o video-game as 19:00 todos os dias da semana.
+Ligar o ar condicionado do quarto com suíte,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>;com<I-LOC>;suite<L-DEVICE>,Desligue todos as luzes da casa;,Ligue a luz da fachada das 18 às 7 horas todos os dias
+Ligar a impressora conectada ao pc 1,impressora<B-DEVICE>,Desligar o ar condicionado do escritório.,Desligue o ar condicionado do [cômodo] às 8 horas de segunda à sexta
+Quero que ligue a TV do quarto;,tv<B-DEVICE>;quarto<B-LOC>,Desligue o ar condicionado,"Ligue/ative o sistema de irrigação às 5 horas dia sim, dia não"
+"Ligue a televisão, por favor",televisao<B-DEVICE>,Desligue o ar,Ligue o ar condicionado do [cômodo] meio dia e meia
+"Liga a tv, por favor",tv<B-DEVICE>,Desligue o ar condicionado do [cômodo],Ligue o ar Condicionado do [cômodo] das 12 horas até seis da tarde/noite
+"Ligue a luz do cômodo, por favor",luz<B-DEVICE>;comodo<B-LOC>,Desligue a luz do [cômodo],Mantenha as luzes do [cômodo] acesas até às 6 horas
+Acenda a luz do cômodo,luz<B-DEVICE>;comodo<B-LOC>,Desligue a iluminação da fachada,"Programe o alarme para despertar segundas, quartas e sextas às dez da manhã/noite"
+Ligue o ar condicionado,ar<B-DEVICE>;condicionado<L-DEVICE>,Desligue o sistema de segurança,Ligue o rádio na estação x às sete da manhã/noite (ou 19 horas)
+"Ligue o ar, por favor",ar<B-DEVICE>,Desligue o ventilador no [cômodo],Acenda as luzes da fachada das seis da tarde/noite até às seis da manhã.
+"Por favor,Ligue o computador",computador<B-DEVICE>,Desative o sistema de segurança,Acenda a luz do [cômodo] às seis da tarde
+Ligue o ar condicionado do cômodo,ar<B-DEVICE>;condicionado<L-DEVICE>;comodo<B-LOC>,Desative o alarme da porta,Ligue o ar por x minutos/horas
+Ligue todas as luzes da casa,luzes<B-DEVICE>;casa<B-LOC>,Apague a luz do [cômodo],Ligue o ar por meia hora
+Ligue o alarme de casa,alarme<B-DEVICE>;casa<B-LOC>,Desliga a TV,Desliga a TV depois do jornal das 21:00 horas
+Ative o alarme de casa,alarme<B-DEVICE>;casa<B-LOC>,Apaga o abajur,Apaga o abajur depois de 30 minutos dele aceso
+Ligue o rádio,radio<B-DEVICE>,Desliga as luzes,A luz da cozinha fica ligada de 8:00 da manhã até 22:00 da noite
+Liga a TV,tv<B-DEVICE>,Nenhuma luz acesa no quarto,Todo dia as 7:00 da manhã tocar despertador
+Resfriar o quarto,quarto<B-DEVICE>,Ar condicionado desligado,Manter o ar condicionado na temperatura de 24 graus de 22:00 as 7:00 horas
+Acende o abajur,abajur<B-DEVICE>,Apaga a tela da tv,Apaga a tela da tv depois das 22:00 horas caso esteja ligada
+Liga as luzes,luzes<B-DEVICE>,Não quero mais assistir TV,O ar fica ligado de 7:00 as 16:00 horas
+Iluminar o quarto,quarto<B-DEVICE>,Por hoje chega de música,sempre desligue o ar condicionado as 9:00
+Ar condicionado ligado,ar<B-DEVICE>;condicionado<L-DEVICE>,Desligar computador,sempre ligue o ar condicionado as 21:00
+Acende a tv,tv<B-DEVICE>,A comida já está suficientemente quente,sempre ligue o ar condicionado no período de 9:00 as 18:00
+Esquentar comida no microondas,microondas<B-DEVICE>,desligue o ar condicionado do quarto,sempre ligue o ar condiconado no intervalo de 9:00 as 18:00
+Lavar roupa na máquina,maquina<B-DEVICE>,desligar o ar condicionado do quarto,ligue o ar condicionado as 21:00
+Ligar computador,computador<B-DEVICE>,desliga o ar condicionado do quarto,ligue o ar condicionado no horário comercial
+Toca uma musica do radio,radio<B-DEVICE>,não funcione o ar condicionado,ligue o ar condicionado fora do horário comercial
+ligue o ar condicionado do quarto,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>,faça não funcionar o ar condicionado,ligue o ar condicionado no horário de dormir
+ligar o ar condicionado do quarto,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>,ponha em não funcionamento o ar condicionado,ligue o ar condicionado a noite
+liga o ar condicionado do quarto,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>,desenergize o ar condicionado,ligue o ar condicionado a tarde
+diminua a temperatura do ar condicionado do quarto,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>,desenergizar o ar condicionado,ligue o ar condicionado pela manhã
+aumente a temperatura do ar condicionado do quarto,ar<B-DEVICE>;condicionado<L-DEVICE>;quarto<B-LOC>,apague o ar condicionado,desliga o forno daqui a 15 minutos
+funcione o ar condicionado,ar<B-DEVICE>;condiciocnado<L-DEVICE>,apagar o ar condicionado,desliga a TV daqui a 1 hora e meia
+faça funcionar o ar condicionado,ar<B-DEVICE>;condiciocnado<L-DEVICE>,Desligue o rádio.,desliga a TV daqui a 10 minutos
+ponha em funcionamento o ar condicionado,ar<B-DEVICE>;condiciocnado<L-DEVICE>,Apague as luzes do banheiro.,desliga a TV em 15 minutos
+energize o ar condicionado,ar<B-DEVICE>;condiciocnado<L-DEVICE>,"Pode desligar o ar condicionado, por favor?",liga a TV todo dia às sete e 30 da manhã menos sabado e domingo
+energizar o ar condicionado,ar<B-DEVICE>;condiciocnado<L-DEVICE>,desliga a luz,liga a TV de segunda a sexta pela manhã as 7 e meia
+Ligue a televisão.,televisao<B-DEVICE>,desliga o forno,desliga a TV todo dia depois da Ana Maria Braga
+Você pode acender a luz da sala?,luz<B-DEVICE>;sala<B-LOC>,apaga a luz,liga no jornal da globo todo dia a noite quando começar
+Eu quero que você ligue o forno.,forno<B-DEVICE>,apaga todas as luzes da cobertura,acende a luz da cozinha todo dia às 18 as 22
+Ligar o computador.,computador<B-DEVICE>,desliga o computador da cobertura,deixa a luz da cozinha acesa todo dia de 6 as 10 da noite
+"Quero ver televisão, ligue por favor.",televisao<B-DEVICE>,Desligue o forno,esquenta a comida por 1:30 seg
+Tem como ligar o aparelho de som?,aparelho<B-DEVICE>;de<I-DEVICE>;som<L-DEVICE>,Apague a luz,esquenta por 1 minuto e meio
+Por favor ligue a máquina de lavar.,maquina<B-DEVICE>;de<I-DEVICE>;lavar<L-DEVICE>,"Por favor, desligue o ar",Pode preparar um café às 7h?
+Preciso que você ligue a secadora.,secadora<B-DEVICE>,Desligue o projetor,"Quando for 22h, desligue a TV."
+Quero o ventilador ligado agora.,ventilador<B-DEVICE>,A apresentação acabou,Desligue o forno em 30 minutos.
+Ligue a luz da cozinha agora,luz<B-DEVICE>;cozinha<B-LOC>,Acabe com a música,Desligue o ar condicionado as 2h da manhã.
+"por favor, liga a luz do banheiro",luz<B-DEVICE>;banheiro<B-LOC>,"Vou dormir, desliga a tela do computador",Coloque o despertador para 6h30 amanhã
+"liga a luz, por favor",luz<B-DEVICE>,Desligue a cafeteira,"Deixe no modo soneca por mais 15 minutos, por favor"
+ligar a luz deste cômodo,luz<B-DEVICE>;comodo<B-LOC>,Desligue as luzes da sala,"Por favor, ligue para meu avô às 16h;"
+ilumina a mesa da cozinha,mesa<B-LOC>;da<I-LOC>;cozinha<L-LOC>,Desliga a luz da sala,Ligar a maquina de lavar toda quarta às 12h
+"por favor, ilumina a mezinha",mesinha<B-LOC>,Desliga o ar,Ligue o alarme todo dia as 19h
+"por favor, aumenta a luminosidade em cima do computador",computador<B-LOC>,Desligue o ar condicionado,"Sempre que a temperatura for maior que 35 graus, ligue o ar condicionado."
+acende a luz da pia da cozinha,luz<B-DEVICE>;pia<B-LOC>;da<I-LOC>;cozinha<L-LOC>,Desligue a bomba d`água,Ligue as luzes da casa às 18:30
+"tô cozinhando, acende a luz",luz<B-DEVICE>,Desligue o filtro de ar,Desligue as luzes às 22:30
+"tô me maquiando, acende a luz do espelho do meu banheiro",luz<B-DEVICE>;espelho<B-LOC>;do<I-LOC>;meu<I-LOC>;banheiro<L-LOC>,Desliga o forno,"Ligue o som as terças e quintas,das 18:30 as 20:00"
+acende a luz do meu banheiro,luz<B-DEVICE>;banheiro<B-LOC>,Desliga o microondas,"Ligue as luzes às 8:30, de segunda a sexta"
+por favor acende a luz da cabeceira,luz<B-DEVICE>;cabeceira<B-LOC>,Desligue a música,"Desligue as luzes às 10:00, de segunda a sexta"
+liga o ar a 24 graus,ar<B-DEVICE>,Desliga o som,"Ligue o ar condicionado de domingo a domingo, às 20:00"
+Faça torradas na chapa.,chapa<B-DEVICE>,Esqueceram as luzes ligadas na sala 3 do sexto andar.,"Desligue o ar condicionado, todos os dias, às 9:00"
+"A apresentação vai começar, ligue o projetor",projetor<B-DEVICE>,Estou indo trabalhar.,"Ligue o filtro d’água, todos os dias às 17:00"
+"comecou o jonal, liga a tv",tv<B-DEVICE>,Desligar todas os equipamentos da casa do Rio de Janeiro.,Desligue o ventilador do quarto às 19:00
+"Por favor, ligue o som ambiente.",som<B-DEVICE>;ambiente<L-DEVICE>,Desligar o projetor.,Desligue o filtro d’água ás 10:00
+Esquente a água no fogão.,fogao<B-DEVICE>,Terminei a apresentação.,
+Imprimir documentos,,A apresentação do projeto terminou.,
+Faz um café pra mim,café<B-DEVICE>,A apresentação acabou.,
+Prepara um cafezinho,cafezinho<B-DEVICE>,A aula acabou.,
+Ligue o som,som<B-DEVICE>,Desligue o projetor.,
+Quero ouvir rádio,radio<B-DEVICE>,Desligar as luzes da sala de reunião principal.,
+Acionar o som,som<B-DEVICE>,Todos já saíram do salão.,
+Ligue o áudio,audio<B-DEVICE>,Estou saindo de casa agora.,
+Ligue o ar condicionado,ar<B-DEVICE>;condicionado<L-DEVICE>,Acabou o expediente da empresa agora.,
+Acione o ar,ar<B-DEVICE>;condicionado<L-DEVICE>,A reunião acabou.,
+Liga a tv,tv<B-DEVICE>,A reunião terminou agora.,
+Ligue a televisão,televisao<B-DEVICE>,Estou com frio no quarto.,
+Ligue o alarme,alarme<B-DEVICE>,Está frio na sala.,
+Ligue as luzes da sala,luzes<B-DEVICE>;sala<B-LOC>,Desligar as luzes da casa.,
+Liga a luz da sala,luz<B-DEVICE>;sala<B-LOC>,Desligue as luzes de todas as salas de reunião.,
+Liga o forno,forno<B-DEVICE>,Estamos congelando no primeiro andar.,
+Queria ver um filme,,Desliga o ar-condicionado do salão secundário.,
+"Essa comida está fria, preciso esquentar",,,
+Tá escuro aqui,,,
+Vou ler um livro,,,
+Que canal chato,,,
+O oitavo andar está muito quente.,oitavo<B-LOC>;andar<L-LOC>,,
+O quinto andar está um inferno.,quinto<B-DEVICE>;andar<L-LOC>,,
+Ligar o ar condicionado da sala de reunião 5.,ar<B-DEVICE>;condicionado<L-DEVICE>;sala<B-LOC>;de<I-LOC>;reuniao<I-LOC>;5<L-LOC>,,
+Estou com calor aqui no salão principal.,salao<B-LOC>;principal<L-LOC>,,
+Liga o ar de todas as salas de reunião.,ar<B-DEVICE>;salas<B-LOC>;de<I-LOC>;reuniao<L-LOC>,,
+Acenda as luzes de todas as salas do escritório.,luzes<B-DEVICE>;salas<B-LOC>;do<I-LOC>;escritorio<L-LOC>,,
+Ligar as luzes somente dos andares 6 e 7.,luzes<B-DEVICE>;andares<B-LOC>;6<I-LOC>;e<I-LOC>;7<L-LOC>,,
+Clarear os quartos da casa do Rio de Janeiro.,quartos<B-LOC>;da<I-LOC>;casa<L-LOC>;rio<B-LOC>;de<I-LOC>;janeiro<L-LOC>,,
+"Está na hora de acordar, clareie o quarto do João.",quarto<B-LOC>;do<I-LOC>;joao<L-LOC>,,
+"Vou tomar café da manhã, prepare o pão na chapa e o café.",,,
+Vamos começar a reunião no auditório.,auditorio<I-LOC>,,
+Ligar o projetor.,projetor<B-DEVICE>,,
+A aula vai começar.,,,
+Vou começar a apresentação agora.,,,
+Ligue o projetor.,projetor<B-DEVICE>,,
+Quero que ligue o projetor.,projetor<B-DEVICE>,,
+"Por favor, ligue o projetor para a apresentação.",projetor<B-DEVICE>,,
+"Cheguei em casa agora, prepara o quarto.",quarto<B-LOC>,,
+Preparar o quarto de casa.,quarto<B-LOC>;da<I-LOC>;casa<L-LOC>,,
+"O verão chegou, está na hora de ligar o ar.",ar<B-DEVICE>,,
+Vou começar a apresentar o projeto.,,,
+Ligar a bomba da piscina.,bomba<B-DEVICE>;da<I-DEVICE>;pisicina<L-DEVICE>,,
+Ativar a bomba da piscina.,bomda<B-DEVICE>;da<I-DEVICE>;piscina<L-DEVICE>,,
+Liga a ventilação do quarto.,ventilação<B-DEVICE>;quarto<B-LOC>,,

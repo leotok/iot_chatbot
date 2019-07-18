@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Assistente Pessoal</title>
+
+    <link rel="stylesheet" href="static/css/chatbot.css">
+    <section class="content-header">
+        <h1>
+            Chatbot
+        </h1>
+    </section>
+  </head>
+  <body>
+
+                            
+    <div class="chat-container clearfix">    
+        <div class="chat">
+            <div class="chat-header clearfix">
+                <div class="chat-about">
+                    <div class="chat-with">Chat with our bot</div>
+                </div>
+                <div class="minimize-button">+</div>
+            </div> <!-- end chat-header -->
+            
+            <div class="chat-history">
+                <ul>
+                <li>
+                    <div class="message-data">
+                    <span class="message-data-name"><i class="fa fa-circle online"></i> Curso de Inverno's bot</span>
+                    <span class="message-data-time">Now</span>
+                    </div>
+                    <div class="message my-message">
+                    Olá, o que deseja que eu faça?
+                    </div>
+                </li>
+                <!-- <li class="clearfix">
+                    <div class="message-data align-right">
+                    <span class="message-data-time" >10:10 AM, Today</span> &nbsp; &nbsp;
+                    <span class="message-data-name" >Leo</span> <i class="fa fa-circle me"></i>
+                    
+                    </div>
+                    <div class="message other-message float-right">
+                    Liga o ar-condicionado do meu quarto, por favor
+                    </div>
+                </li> -->
+                
+                <!-- <li>
+                    
+                    <i class="fa fa-circle online" style="color: #AED2A6"></i>
+                    <i class="fa fa-circle online" style="color:rgb(212, 231, 208)"></i>
+                    <i class="fa fa-circle online" style="color: #AED2A6"></i>
+                   
+                </li> -->
+                
+                </ul>
+                
+            </div> <!-- end chat-history -->
+            
+            <div class="chat-message clearfix">
+                <textarea name="message-to-send" id="message-to-send" placeholder ="Digite uma mensagem..." rows="1"></textarea>
+                <i class="microphone fa fa-microphone"></i>
+                <button>Enviar</button>
+
+            </div> <!-- end chat-message -->
+        
+        </div> <!-- end chat -->
+        
+    </div> <!-- end container -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+
+<script src="static/js/chatbot.js"></script>
+
+<script id="message-template" type="text/x-handlebars-template">
+    <li class="clearfix">
+      <div class="message-data align-right">
+        <span class="message-data-time" >{% raw %}{{time}}{% endraw %}, Today</span> &nbsp; &nbsp;
+        <span class="message-data-name" >Eu</span> <i class="fa fa-circle me"></i>
+      </div>
+      <div class="message other-message float-right">
+        {% raw %}
+          {{{messageOutput}}}
+        {% endraw %}
+      </div>
+    </li>
+  </script>
+  
+  <script id="message-response-template" type="text/x-handlebars-template">
+    <li>
+      <div class="message-data">
+        <span class="message-data-name"><i class="fa fa-circle online"></i> Curso de Inverno's bot</span>
+        <span class="message-data-time">{% raw %}{{time}}{% endraw %}, Today</span>
+      </div>
+      <div class="message my-message">
+        {% raw %}
+          {{{response}}}
+        {% endraw %}
+      </div>
+    </li>
+  </script>
+
+</body>
+</html>

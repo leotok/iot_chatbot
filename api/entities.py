@@ -10,28 +10,18 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 models_dir = os.path.join(base_dir, 'models')
-entities_model_path = os.path.join(models_dir, 'entities_model_02-03-2018.sav')
+entities_model_path = os.path.join(models_dir, 'entities_model.sav')
+entities_label_binarizer_model_path = os.path.join(models_dir, 'entities_label_binarizer.sav')
 
 with open(entities_model_path, 'rb') as f:
   entities_model = pickle.load(f)
 
 # nlp = spacy.load('pt_core_news_sm')
 nlp = pt_core_news_sm.load()
-pos_tags = [
-    'POS', 'PUNCT', 'SYM','ADJ',
-    'NUM', 'DET', 'ADV', 'ADP',
-    'X', 'VERB', 'CCONJ', 'NOUN',
-    'PROPN', 'PART', 'INTJ', 'SPACE',
-    'PRON', 'SCONJ', 'AUX', 'CONJ',
-    'START', 'END',
-]
 
-entities_labels_list = ['B-DEVICE','I-DEVICE','o']
-pos_tags_hotencoder = preprocessing.LabelBinarizer()
-pos_tags_hotencoder.fit(pos_tags)
+with open(entities_label_binarizer_model_path, 'rb') as f:
+  labels_encoder = pickle.load(f)
 
-labels_encoder = preprocessing.LabelEncoder()
-labels_encoder.fit(entities_labels_list)
 columns=['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'label']
 features_columns = [
     'f1_ADJ', 'f1_ADP', 'f1_ADV', 'f1_AUX', 'f1_CCONJ',

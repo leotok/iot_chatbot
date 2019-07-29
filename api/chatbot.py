@@ -1,12 +1,9 @@
+from models import predict_message
 import enum
-import json
 import datetime
 import random
-import requests
 import unidecode
 
-
-MODELS_API = 'http://localhost:5000/api/predict'
 
 positive_words = {'sim', 'positivo', 'claro', 'pode ser', 'obvio', 'com certeza', 'pode ser', 'ok'}
 negative_words = {'nao', 'negativo', 'errado', 'errou', 'nenhum'}
@@ -151,9 +148,8 @@ def handle_user_chat_context(user_message):
             return 'Desculpe, não entendi... Qual aparelho?'
 
 def get_message_interpretation(user_message):
-    response = requests.post(MODELS_API, data={'cmd': user_message}).json()
-    intent = max(response.get('intent'), key=lambda x: x[1])[0]
-    entities = response.get('entities')
+    intent, entities, _ = predict_message(user_message)
+    intent = max(intent, key=lambda x: x[1])[0]
     return intent, entities
 
 def handle_user_intent(intent, entities, user_message):

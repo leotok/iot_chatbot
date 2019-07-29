@@ -1,0 +1,19 @@
+version: '3'
+services:
+  api:
+    build: 
+      context: .
+    command: python3.6 -m flask run --host 0.0.0.0 --port 5000
+    ports:
+    - "5000:5000"
+    volumes:
+    - ./api:/app
+
+  notebook:
+    build: 
+      context: .
+    entrypoint: jupyter lab --ip=0.0.0.0 --port=8888 --allow-root
+    volumes:
+    - .:/app
+    ports:
+    - "8888:8888"

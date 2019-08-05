@@ -8,10 +8,8 @@ import pt_core_news_sm
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-models_dir = os.path.join(base_dir, 'models')
-entities_model_path = os.path.join(models_dir, 'entities_model.sav')
-entities_label_binarizer_model_path = os.path.join(models_dir, 'entities_label_binarizer.sav')
+entities_model_path = 'models/entities_model_02-03-2018.sav'
+entities_label_binarizer_model_path = 'models/entities_label_binarizer.sav'
 
 with open(entities_model_path, 'rb') as f:
   entities_model = pickle.load(f)

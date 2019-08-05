@@ -1,20 +1,32 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
+from models import predict_message
 from chatbot import process_text, answer, get_message_interpretation
 from chatbot import handle_user_chat_context, handle_user_intent, handle_priority_expressions
 
 
 app = Flask(__name__)
 
+@app.route('/')
+def index_page():
+    return '''
+    <h2>Index</h2>
+    <ol>
+        <li><a target="_blank" href="/models">Sandbox modelos de intenção e entidades</a></li>
+        <li><a target="_blank" href="/chatbot">Chatbot</a></li>
+        <li><a target="_blank" href="localhost:8888">Jupyter Notebook</a></li>
+    </ol>
+    '''
+    
 @app.route('/models')
-def index():
+def models_page():
     return render_template('index.html')
 
 @app.route('/chatbot')
-def chatbot():
+def chatbot_page():
     return render_template('chat.html')
 
 @app.route('/api/predict', methods=['POST'])
-def predict_view():
+def predict_endpoint():
     cmd = request.form.get('cmd')
     intent, entities, entities_described = predict_message(cmd)
     return jsonify({

@@ -4,9 +4,8 @@ import pandas as pd
 import pickle
 import unidecode
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-models_dir = os.path.join(base_dir, 'models')
-intent_model_path = os.path.join(models_dir, 'intent_model.sav')
+
+intent_model_path = 'models/intent_model.sav'
 
 with open(intent_model_path, 'rb') as f:
   intent_model = pickle.load(f)

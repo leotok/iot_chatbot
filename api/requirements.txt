@@ -1,6 +1,6 @@
 Flask==0.12.2
 gunicorn==19.8.1
-nltk==3.2.5
+nltk==3.4.5
 numpy==1.15.0
 pandas==0.22.0
 pathlib==1.0.1
